@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import { ClerkProvider } from '@clerk/nextjs';
+import { jaJP } from '@clerk/localizations';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,12 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='ja'>
-      <body className={inter.className}>
-        <main className='mx-auto flex min-h-screen max-w-5xl flex-col place-content-center justify-between md:p-12'>
-          {children}
-        </main>
-      </body>
-    </html>
+    <ClerkProvider localization={jaJP}>
+      <html lang='ja'>
+        <body className={inter.className}>
+          <main className='mx-auto flex min-h-screen max-w-5xl flex-col place-content-center justify-between md:p-12'>
+            {children}
+          </main>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
