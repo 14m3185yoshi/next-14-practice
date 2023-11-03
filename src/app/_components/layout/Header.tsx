@@ -11,7 +11,11 @@ export default function Header() {
           </Link>
         </div>
         <SignedIn>
-          <UserButton afterSignOutUrl='/' />
+          <UserButton
+            afterSignOutUrl='/'
+            userProfileMode='navigation'
+            userProfileUrl='/account'
+          />
         </SignedIn>
         <SignedOut>
           <SignInButton>
