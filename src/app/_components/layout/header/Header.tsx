@@ -1,5 +1,6 @@
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
+import LinkList from './LinkList';
 
 export default function Header() {
   return (
@@ -9,6 +10,7 @@ export default function Header() {
           <Link href={'/'} className='p-2 text-sm font-semibold md:text-2xl'>
             🍊ChatLife
           </Link>
+          <LinkList />
         </div>
         <SignedIn>
           <UserButton
