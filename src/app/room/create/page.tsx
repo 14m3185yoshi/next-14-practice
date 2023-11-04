@@ -34,10 +34,6 @@ export default function Create() {
     redirect(`/room/${room.id}`);
   }
 
-  if (ispending) {
-    return <div>loading...</div>;
-  }
-
   return (
     <div className='mx-4 my-10 flex flex-col-reverse bg-white md:flex-row'>
       <form className='flex basis-1/2 flex-col gap-10' action={handleSubmit}>
