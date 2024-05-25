@@ -1,8 +1,8 @@
-## はじめに
+## はじめに！
 
 本プロジェクトでは、[Rori SutaRou 氏の記事](https://zenn.dev/rorisutarou/articles/3ee144c4ab4748#prisma-%2B-planetscale-%E3%81%AE%E5%B0%8E%E5%85%A5)を参考にし、Next.js と Prisma + PlanetScale を使用してリアルタイムチャットアプリを作成しました。このアプリケーションは、ユーザーがチャットルームを作成し、他のユーザーとリアルタイムでメッセージを交換できる機能を提供します。
 
-## 使用技術
+## 使用技術!
 
 Next.js: フロントエンドのフレームワークとして Next.js を採用しました。Next.js は React ベースのフレームワークで、サーバーサイドレンダリング(SSR)や静的サイト生成(SSG)、API ルートなどの機能を提供しています。
 Prisma: データベースアクセスと ORM（Object Relational Mapper）のために Prisma を使用しました。Prisma は、型安全なデータベースアクセスを提供し、データベーススキーマを明確に定義できることが利点です。
