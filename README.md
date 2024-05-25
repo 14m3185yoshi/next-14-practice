@@ -1,4 +1,4 @@
-## はじめに！
+## はじめに！メインで編集したよ
 
 本プロジェクトでは、[Rori SutaRou 氏の記事](https://zenn.dev/rorisutarou/articles/3ee144c4ab4748#prisma-%2B-planetscale-%E3%81%AE%E5%B0%8E%E5%85%A5)を参考にし、Next.js と Prisma + PlanetScale を使用してリアルタイムチャットアプリを作成しました。このアプリケーションは、ユーザーがチャットルームを作成し、他のユーザーとリアルタイムでメッセージを交換できる機能を提供します。
 
